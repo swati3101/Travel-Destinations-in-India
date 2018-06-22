@@ -1,0 +1,132 @@
+<! DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="stylefront.css">
+<title>Travel Destinations</title>
+</head>
+<body>
+<p>
+<br>
+</p>
+<h1><u>THE BEST TRAVEL DESTINATIONS IN INDIA </u></h1>
+<p>
+<br></p>
+
+  <a href="religousplaces.html"><img class="mySlides" src="hemukund.jpg" style="width:800px;align:center;"></a>
+  <a href="hillstations.html"><img class="mySlides" src="kashmir.jpg" style="width:800px;align:center;"></a>
+  <a href="beaches.html"><img class="mySlides" src="lighthouse.jpg" style="width:800px;align:center;"></a>
+  <a href="history.html"><img class="mySlides" src="taj.jpg" style="width:800px;align:center;"></a>
+  <a href="adventure.html"><img class="mySlides" src="rishikesh.jpg" style="width:800px;align:center;"></a>
+  <a href="nightlife.html"><img class="mySlides" src="nightbanglore.jpg" style="width:800px;align:center;"></a>
+  <a href="photo.html"><img class="mySlides" src="kaziranga.jpg" style="width:800px;align:center;"></a>
+  <a href="food.html"><img class="mySlides" src="chennai-food.jpg" style="width:800px;align:center;"></a>
+  <a href="shop.html"><img class="mySlides" src="shopdelhi.jpg" style="width:800px;align:center;"></a>
+ 
+<p>
+<br>
+<i><b>'It Is Better to See Something Once Than to Hear About it a Thousand Times' </b></i>
+<br>
+<br>
+India is a land covered by snow-clad high mountain peaks, beautiful vallies , ever-active rivers , long serene beaches and the raging seas .Not only India's 
+beauty lies in the gifts endowed upon her by mother nature but also in its glorious history , astonishing architectural works , and in the various temples where
+the gods of India reside. The country might seem calm and boring for those who are not interested in topics of history, gods and culture. But, India is just not
+any other country who has limited to offer. This country is a paradise for people who love photography as it not only ofers picturesque locations set in the 
+backgrop of beauty of nature but also beautiful monuments, a great kingdom of animals and birds and its lively streets. India is also known for it's 
+rich and spicy food. Well, India has a table full of dishes when it comes on exploring Indian cuisine.India also proves to be heaven for shopping-addicts as you 
+get a variety of items over here to drape yourself in silk or be laden with beautiful designed jewellery or embellish your house with the dazzling artefacts. The
+western culture also seems to be adapted here, as India also offers various destinations to improvise your social lives and to add a pinch of fun to your weekend!
+<br>
+Soo many places to visit if you want to explore this country!!Cannot decide which places to shortlist??
+<br>
+No worries. We have handpicked top 10 destinations in India according to your taste.Go throught the lists and enjoy your tour!
+<br>
+</p>
+<button id="button1"><span>Top 10 Religious Places in India</span></button>
+<br>
+<button id="button2"><span>Top 10 Hill-Stations in India</span></button>
+<br>
+<button id="button3"><span>Top 10 Beaches in India</span></button>
+<br>
+<button id="button4"><span>Top 10 Historical Places in India</span></button>
+<br>
+<button id="button5"><span>Top 10 Adventure Destinations of India</span></button>
+<br>
+<button id="button6"><span>Top 10 Night-Life Destinations in India</span></button>
+<br>
+<button id="button7"><span>Top 10 Destinations in India for Photography</span></button>
+<br>
+<button id="button8"><span>Top 10 Destinations in India for Food-Addicts</span></button>
+<br>
+<button id="button9"><span>Top 10 Shopping Destinations of India</span></button>
+
+
+<p style="font-size:28px">
+<br>
+All these things are worth trying and better than reading.So,what are you waiting for!!!Just pack your bags, grab your phone and charger,a pair of binoculars
+and set down on a trail to discover the amazing surprises.
+</p>
+<p>
+<br></p>
+
+<footer>Travel Destinations</footer>
+
+<script type="text/javascript">
+
+    var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); 
+}
+    
+	document.getElementById("button1").onclick = function () {
+        location.href = "religousplaces.html";
+    };
+	
+	document.getElementById("button2").onclick = function () {
+        location.href = "hillstations.html";
+    };
+	
+	document.getElementById("button3").onclick = function () {
+        location.href = "beaches.html";
+    };
+	
+	document.getElementById("button4").onclick = function () {
+        location.href = "history.html";
+    };
+	
+	document.getElementById("button5").onclick = function () {
+        location.href = "adventure.html";
+    };
+	
+	document.getElementById("button6").onclick = function () {
+        location.href = "nightlife.html";
+    };
+	
+	document.getElementById("button7").onclick = function () {
+        location.href = "photo.html";
+    };
+	
+	document.getElementById("button8").onclick = function () {
+        location.href = "food.html";
+    };
+	
+	document.getElementById("button9").onclick = function () {
+        location.href = "shop.html";
+    };
+	
+	
+</script>
+
+
+
+</body>
+</html>
